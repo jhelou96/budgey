@@ -6,7 +6,7 @@ Budgey is a budget management software available for free under the GNU/GPL lice
 ## Installation
 
 Budgey is at the moment available only for Windows but we plan to release a Mac and Linux version really soon.
-To install the software, download it from the official website(http://budgey.net) and follow the installation process.
+To install the software, download it from the [official website](http://budgey.net) and follow the installation process.
 
 ## Contributing
 
@@ -15,7 +15,7 @@ The code is fully documented and if you wish to implement your modifications to 
 
 ## Author
 
-You can visit the author's website at the following address: http://joeyhelou.com
+You can visit the author's website at the following address: [Author website](http://joeyhelou.com)
 
 ## License
 
