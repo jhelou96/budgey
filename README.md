@@ -19,4 +19,4 @@ You can visit the author's website at the following address: http://joeyhelou.co
 
 ## License
 
-This project is licensed under the GNU/GPL License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU/GPL License - see the [LICENSE.md](https://github.com/jhelou96/budgey/blob/master/LICENSE) file for details
