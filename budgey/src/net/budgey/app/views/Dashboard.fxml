@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.budgey.app.views.DashboardController">
+   <children>
+      <BarChart fx:id="operationsChart" animated="false" title="%operationsPerMonthForCurrentYear" HBox.hgrow="ALWAYS">
+        <xAxis>
+          <CategoryAxis label="%month" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="%amount" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Separator orientation="VERTICAL" prefHeight="200.0" />
+      <VBox alignment="TOP_CENTER" prefHeight="403.0" prefWidth="208.0" HBox.hgrow="ALWAYS">
+         <children>
+            <VBox VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="30.0" prefWidth="54.0" style="-fx-background-color: rgb(97, 97, 97);">
+                     <children>
+                        <Label text="%operationsCurrentYear" textFill="WHITE">
+                           <font>
+                              <Font name="Comic Sans MS" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" VBox.vgrow="ALWAYS">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Operations:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="operationsNumberForCurrentYearLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Expenses:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="expensesForCurrentYearLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Income:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="incomeForCurrentYearLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Total:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="operationsTotalAmountForCurrentYearLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <VBox VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="30.0" prefWidth="54.0" style="-fx-background-color: rgb(97, 97, 97);">
+                     <children>
+                        <Label text="%operationsCurrentMonth" textFill="WHITE">
+                           <font>
+                              <Font name="Comic Sans MS" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" VBox.vgrow="ALWAYS">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Operations:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="operationsNumberForCurrentMonthLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Expenses:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="expensesForCurrentMonthLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Income:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="incomeForCurrentMonthLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="71.0" prefWidth="208.0" spacing="5.0">
+                           <children>
+                              <Label text="Total:" textFill="#752828">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="operationsTotalAmountForCurrentMonthLabel" text="-">
+                                 <font>
+                                    <Font name="Comic Sans MS" size="25.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+         <HBox.margin>
+            <Insets left="-5.0" />
+         </HBox.margin>
+      </VBox>
+   </children>
+</HBox>

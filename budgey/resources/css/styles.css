@@ -1,0 +1,9 @@
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+	-fx-text-fill: white !important;
+}
+.hyperlink:visited {
+    -fx-text-fill: rgb(11, 144, 195);
+}
+.combo-box-base .text {
+    -fx-fill: rgb(130.0, 130.0, 130.0);
+}
