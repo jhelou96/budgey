@@ -1,12 +1,12 @@
 # budgey
 
-Budgey is a budget management software available for free under the GNU/GPL license. It is written in Java under the MVC architecture and uses JavaFX and FXML for the graphical user interface.
+Budgey is a budget management software available for free under the GNU/GPL license. It is written in Java following the MVC architecture and uses JavaFX and FXML for the graphical user interface.
 
 
 ## Installation
 
 Budgey is at the moment available only for Windows but we plan to release a Mac and Linux version really soon.
-To install the software, download it from the [official website](http://budgey.net) and follow the installation process.
+To install the software, download it from the [official website](http://budgeyapp.000webhostapp.com/) and follow the installation process.
 
 ## Contributing
 
